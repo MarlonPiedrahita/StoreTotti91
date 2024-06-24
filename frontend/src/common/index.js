@@ -1,4 +1,4 @@
-const backendDomin ="https://storetotti91.onrender.com"
+const backendDomin ="https://storetotti91-1.onrender.com"
 
 const SummaryApi={
     signUP : {
