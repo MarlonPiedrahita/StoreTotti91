@@ -1,4 +1,4 @@
-const backendDomin ="http://localhost:8080"
+const backendDomin ="https://storetotti91.onrender.com"
 
 const SummaryApi={
     signUP : {
@@ -7,6 +7,10 @@ const SummaryApi={
     },
     signIn : {
         url : `${backendDomin}/api/signin`,
+        method : "post"
+    },
+    ForgotPassword: {
+        url : `${backendDomin}/api/forgot-password`,
         method : "post"
     },
     current_user : {
